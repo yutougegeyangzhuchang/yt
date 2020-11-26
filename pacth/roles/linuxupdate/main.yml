@@ -1,0 +1,6 @@
+---
+- name: Upgrade security packages
+  yum:
+    name: '*'
+    state: latest
+    security: yes
