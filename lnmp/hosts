@@ -1,7 +1,6 @@
 [webservers]
-webserver.local
-
+192.168.10.150
 [dbservers]
-dbserver.local
+192.168.10.150
 
 
