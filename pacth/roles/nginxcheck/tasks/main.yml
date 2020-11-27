@@ -1,7 +1,7 @@
 ---
   - name: Ensure nginx packages are present
     yum:
-      name: nginx, python-pip, python-devel, devel
+      name: nginx, python-pip, python-devel
       state: present
     notify: restart-nginx-service
 
